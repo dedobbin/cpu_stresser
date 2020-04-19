@@ -90,7 +90,7 @@ int main (int argc, char* argv[])
 			set_cpu_stress(input);
 		}
 	}while(input > 0);
-	meassure_thread = 0;
+	_meassure_cpu_load = 0;
 	pthread_join(meassure_thread, NULL);
 	halt_all_stress_threads();
 	free(stress_threads);
