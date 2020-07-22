@@ -1,3 +1,3 @@
 # cpu_stresser
 
-Simple (and unstable)
+Simple (and somewhat unstable) way to put dynamic load on a CPU.
