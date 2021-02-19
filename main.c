@@ -21,7 +21,6 @@ void* do_stress(void* param){
 		int x = 4 + 5;
 		pow(2,10);
 		usleep(_STRESS_THREAD_USLEEP);
-		//printf("hai from thread %d\n", id);
 	}
 	//printf("threads %d ends\n", id);
 }
